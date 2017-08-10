@@ -6,7 +6,7 @@ import javax.persistence.*;
  * Created by Jet on 2017/8/7.
  */
 @Entity
-@Table(name = "MERCHANT_STORE")
+@Table(name = "usersT")
 public class User extends SalesManagerEntity<Integer, User> {
 
     private static final long serialVersionUID = 7671103335743647655L;
