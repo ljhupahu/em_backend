@@ -1,4 +1,4 @@
-package com.em.common.generic;
+package com.em.core.common.generic;
 
 /**
  * Indique que le service doit être rendu transactionnel via un aspect.

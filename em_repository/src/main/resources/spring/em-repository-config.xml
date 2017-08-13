@@ -68,7 +68,7 @@
 	  </beans:bean>
 
   	  <aop:config>
-		<aop:pointcut id="txPointCutDef" expression="this(com.em.common.generic.TransactionalAspectAwareService)" />
+		<aop:pointcut id="txPointCutDef" expression="this(com.em.core.common.generic.TransactionalAspectAwareService)" />
 		<aop:advisor advice-ref="txAdvice" pointcut-ref="txPointCutDef" />
 	  </aop:config>
 

@@ -26,3 +26,10 @@ hs_err_pid*
 *.iws
 *.iml
 *.ipr
+
+### Custome ###
+EM.h2.db
+EM.lock.db
+EM.trace.db
+
+*entities.puml
